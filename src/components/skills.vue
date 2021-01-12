@@ -3,7 +3,7 @@
     id="skills"
     class="md:mx-20 xs:mx-6 sm:mx-10 mt-12 shadow-md p-5 transition transform rounded-2xl hover:scale-105 duration-500"
   >
-    <h1 class="mx-auto text-xl capitalize font-bold mt-3">Skills</h1>
+    <span class="mx-auto text-2xl capitalize font-bold mt-3">Skills</span>
     <div
       class="flex md:flex-nowrap lg:flex-nowrap xs:flex-wrap-reverse sm:flex-wrap-reverse mx-auto justify-center"
     >
@@ -15,7 +15,7 @@
           :key="i"
           class="justify-items-start text-left p-5"
         >
-          <span class="text-base font-medium">{{ skill.name }}</span>
+          <span class="font-sans text-sm font-medium">{{ skill.name }}</span>
           <div class="mx-auto my-auto flex flex-wrap w-full">
             <div class="shadow-sm w-full bg-gray-200 rounded-full">
               <div
