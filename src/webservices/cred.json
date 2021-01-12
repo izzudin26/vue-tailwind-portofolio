@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "portofolio-skill-1610008495424",
+  "private_key_id": "cb94e308d24bb9f497601be0f7a1f72fd3ac1577",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCQCqEz5r82jWC2\nSfdMyNnCtsdzonQHJB5IYmrBGexoS+iq3GCOCa8iEvsm8LMLmUPmVFiCorrGwAN5\nizj+ahkRRdBObT7vOKKt8vGThFbRviqNqsFss3Y3CSKYV03zK9BNH7iomL0aoZhN\nFTkVuYfCnc4YUs6uOQpVkY7MUwJDTTMSipQ8Q0TjewaheTvPWh4FVlMbA73jg10K\nKnzhnQNVCWtzI5w6/rLuZFViY11X+CJVmlmyFmxs77NGma0eO55ePwd4I3D73CmU\nF/IcO9gofAAMsCWm+fFlLzVGR4p4nOUF36cxiyM2KhlXC/5NhcVTErx61Yn3FRb2\nE/29/MGXAgMBAAECgf9DdlCjflV2hCcUbJAZ5l59hup88UxmcjdWSShQSIcj65zA\naXbPdezdVWzlUAm+sb0B1rJqfMzKfIpXSSpOysi/mwyoFRwX7ohCvQY0xEayKKuS\nR+dPtSQo1dGq7mwTxPF9lBECGO2r2DaWSg2MBaXczXJsi49BcHWzasXDhlBvZ4TO\nXVitB/WEM4cree1r/iUngui/6N1g+lOVuv2cIrliMUEQLdQ3i8FH/bijP7k+U63f\n4wb1xS4RLadoSk378YV7G9ujFuvNILmytnQ37jxrUWBe2SAWfb0UjuaTFHenfilF\nn2eAdMKPTG+C/s6JEwItdxD1kMuFea9ZOfCpCSUCgYEAx5RlZW9pZcOBRkwZdYEW\nN3Ijr9osRx3vYXbTDK1JKcQe6smlXjx04lgtH0gR4y7jiu1qMP9epfjxhoftxBbT\nY/zwG4Rm62ODZekCstDEcVB8PEsKAaPjilodwwK+N17aK34IUVjOQuksqqzNUaAh\nuDB9KdOp80iPvJjSfwV3TdMCgYEAuMLuaW3i+lpZTzv1Blz0VNwZGCCPsYMVyUQ4\niAgTFU7n3CPDpmjrqat35mbRqqTPJuIs89xbqp3uHdRa9r+Qkd4l2DYJeah4F/Mr\nILIyv47c+Ltnlzs0qiWM5X1wd8BiZejPRcf0eIAbjBuNolzwBVaGGz+MntKq6txF\nXM0R7q0CgYBPhAlN+7CTcexMlL9D+LVgS+J6CsO/Zebc/xmhIF1Y/aGPy91OCWpM\nT/NSVkWCLUlNLcA0W1pbaC7aece6a5m3aaxEWmEjAZf1f3uqwNCzkOyenQsUkjZz\nBep7qtkceHcWAvXPa0FqmTpJmeWH0vP8TZ1gj8tTeaKC8qRTJVteLwKBgDdcST2T\n7H/hVINWTsvSTG+k52wATa39vihpZZr0+GrZEsY2fSg+peZX93w08Lv12BApkxia\nvWi5G6EagQsQSUw7yREo19v5K8rZVOHeIzCcqP9qf9ajqdsVl0soM+vd3F32zSx2\nhn0YvahUlTLCMDUZQOOnPgZUz1vCFpKA68+dAoGAPr0Mr2F+sNiBuB0denI/T2xa\nTa9IvSWBI3krG8wMOMOfDao+HMjOm7YRFFgFrXRkQJBug8k9k/WLoOx6B3HcGLqx\ndieatRG7H9Fh7x15C1FbE2w1d4QbBC3ZES4aKq2x4nNzKo23WhVU0vISQ/+HditT\nJyBHGUZgeaXvTrAxeLA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "izzudin-skills@portofolio-skill-1610008495424.iam.gserviceaccount.com",
+  "client_id": "110413679474083414416",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/izzudin-skills%40portofolio-skill-1610008495424.iam.gserviceaccount.com"
+}
