@@ -10,7 +10,11 @@
         class="mx-auto my-auto md:w-96 lg:w-96 xs:w-80 sm:w-80"
         alt=""
       />
+      <div v-if="projects.length == 0" class="mx-auto my-auto">
+        <Loading-animation />
+      </div>
       <div
+        v-else
         class="grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2"
       >
         <div
