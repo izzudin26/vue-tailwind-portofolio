@@ -9,7 +9,7 @@
       alt=""
     />
     <div class="mx-auto my-auto sm:mx-10 text-center px-3">
-      <p class="md:text-lg sm:text-base xs:text-base">
+      <p class="md:text-lg sm:text-base xs:text-base text-justify">
         My name is Izzudin Ar Rafiq, i'm student Islam University Lamongan, i've
         big motivation to gain and learn new knowledge specially technology. I
         love programming, and problem solving. I've programming experience last
