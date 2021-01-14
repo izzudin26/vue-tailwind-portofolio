@@ -38,15 +38,15 @@
 <script lang="ts">
 import Vue from "vue";
 
-import spreadsheet, { SpreadsheetResponse } from "@/webservices/spreadsheet.ts";
+import { skills, SkillsModel } from "@/webservices/spreadsheet.ts";
 export default Vue.extend({
   data: () => ({
-    skills: [] as SpreadsheetResponse[],
+    skills: [] as SkillsModel[],
     image: require("@/assets/skills.jpg")
   }),
   mounted() {
-    spreadsheet
-      .getData()
+    skills
+      .getSkills()
       .then(res => {
         this.skills = res;
       })
