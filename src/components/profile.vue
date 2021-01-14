@@ -43,6 +43,7 @@
       </a>
       <About />
       <Skills />
+      <Projects />
     </div>
   </div>
 </template>
@@ -50,12 +51,14 @@
 <script>
 import About from "@/components/about.vue";
 import Skills from "@/components/skills.vue";
+import Projects from "@/components/Projects.vue";
 
 export default {
   name: "Aboutme",
   components: {
     About,
-    Skills
+    Skills,
+    Projects
   },
   data: () => ({
     image: require("@/assets/desk.jpg"),
