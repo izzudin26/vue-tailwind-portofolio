@@ -31,11 +31,7 @@
           </div>
         </div>
       </div>
-      <img
-        :src="image"
-        class="mx-auto my-auto md:w-96 lg:w-96 xs:w-80 sm:w-80"
-        alt=""
-      />
+      <Illustration name="skills.jpg" />
     </div>
   </div>
 </template>
@@ -46,8 +42,7 @@ import Vue from "vue";
 import { skills, SkillsModel } from "@/webservices/spreadsheet.ts";
 export default Vue.extend({
   data: () => ({
-    skills: [] as SkillsModel[],
-    image: require("@/assets/skills.jpg")
+    skills: [] as SkillsModel[]
   }),
   mounted() {
     skills

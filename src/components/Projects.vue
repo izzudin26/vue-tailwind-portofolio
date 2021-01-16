@@ -5,11 +5,7 @@
   >
     <span class="mx-auto text-2xl capitalize font-bold mt-3">Project</span>
     <div class="flex flex-col justify-start align-middle">
-      <img
-        :src="image"
-        class="mx-auto my-auto md:w-96 lg:w-96 xs:w-80 sm:w-80"
-        alt=""
-      />
+      <Illustration name="project.jpg" />
       <div v-if="projects.length == 0" class="mx-auto my-auto">
         <Loading-animation />
       </div>
