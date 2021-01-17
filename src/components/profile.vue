@@ -44,6 +44,7 @@
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   </div>
 </template>
@@ -52,13 +53,15 @@
 import About from "@/components/about.vue";
 import Skills from "@/components/skills.vue";
 import Projects from "@/components/Projects.vue";
+import Footer from "@/components/footer.vue";
 
 export default {
   name: "Aboutme",
   components: {
     About,
     Skills,
-    Projects
+    Projects,
+    Footer
   },
   data: () => ({
     image: require("@/assets/desk.jpg"),

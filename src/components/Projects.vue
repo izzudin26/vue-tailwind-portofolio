@@ -5,7 +5,10 @@
   >
     <span class="mx-auto text-2xl capitalize font-bold mt-3">Project</span>
     <div class="flex flex-col justify-start align-middle">
-      <Illustration name="project.jpg" />
+      <Illustration
+        name="project.jpg"
+        credit="https://www.freepik.com/free-vector/organizing-projects-concept-illustration_5911565.htm#page=1&query=organizing%20project&position=4"
+      />
       <div v-if="projects.length == 0" class="mx-auto my-auto">
         <Loading-animation />
       </div>
@@ -16,13 +19,14 @@
         <div
           v-for="(project, i) in projects"
           :key="i"
+          data-aos="fade-up"
           class="justify-items-start text-left p-3 transform transition hover:scale-105 duration-500"
         >
           <div
             class="flex flex-col rounded-lg border-2 hover:border-primary-400"
           >
             <div class="">
-              <div class="text-sm ml-3 font-sans p-3 my-auto">
+              <div class="text-sm ml-3 font-sans p-3 my-auto font-bold">
                 {{ project.name }}
                 <span
                   class="text-xs bg-primary-600 rounded-md p-1 px-2 text-white"
@@ -34,6 +38,7 @@
               <span
                 v-for="tag of project.tag"
                 :key="tag"
+                data-aos="fade-up"
                 class="p-2 m-2 hover:text-white cursor-pointer hover:bg-primary-500 text-xs font-black bg-gray-300 rounded-lg text-center"
               >
                 {{ tag }}

@@ -9,12 +9,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "google-spreadsheet": "^3.1.15",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@types/aos": "^3.0.3",
     "@types/chai": "^4.2.11",
     "@types/google-spreadsheet": "^3.0.2",
     "@types/mocha": "^5.2.4",

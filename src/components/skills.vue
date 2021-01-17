@@ -18,6 +18,7 @@
         <div
           v-for="(skill, i) in skills"
           :key="i"
+          data-aos="fade-up"
           class="justify-items-start text-left cursor-pointer p-5 hover:text-primary-500 hover:scale-105 duration-500 transform transition"
         >
           <span class="font-sans text-sm font-medium">{{ skill.name }}</span>
@@ -31,7 +32,10 @@
           </div>
         </div>
       </div>
-      <Illustration name="skills.jpg" />
+      <Illustration
+        name="skills.jpg"
+        credit="https://www.freepik.com/free-vector/experts-concept-illustration_5462433.htm#page=1&query=expert%20concept%20illustration&position=2"
+      />
     </div>
   </div>
 </template>
