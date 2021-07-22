@@ -9,7 +9,7 @@ module.exports = {
       secondary: colors.blue,
       gray: colors.gray,
       white: colors.white,
-      purple: colors.purple
+      purples: "#5000CA"
     },
     screens: {
       xs: "320px",

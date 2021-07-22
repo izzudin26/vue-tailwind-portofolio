@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="animate-spin flex mx-auto my-auto bg-white h-10 w-10 text-primary-600"
+    class="animate-spin flex mx-auto my-auto h-10 w-10 text-white"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"

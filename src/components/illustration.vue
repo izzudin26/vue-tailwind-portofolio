@@ -1,7 +1,7 @@
 <template>
   <img
     :src="image"
-    class="mx-auto my-auto md:w-96 lg:w-96 xs:w-80 sm:w-80"
+    class="mx-auto my-auto w-1/2 md:w-1/3"
     data-aos="fade-up"
     alt=""
     @click="openCredit"
