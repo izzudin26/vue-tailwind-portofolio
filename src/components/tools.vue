@@ -7,7 +7,7 @@
       Tools and Technologies
       <div class="bg-purples w-1/6 h-1 rounded-full mx-auto mt-2"></div>
     </div>
-    <div class="grid grid-flow-col-dense grid-rows-1 mx-auto">
+    <div class="grid grid-cols-6 gap-4 mx-auto justify-center align-center">
       <img
         data-aos="fade-up"
         v-for="(image, i) in techs"
@@ -25,6 +25,7 @@ export default {
   name: "Tools",
   data: () => ({
     techs: [
+      "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
       "https://cdn.iconscout.com/icon/free/png-512/docker-226091.png",
       "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png",
       "https://www.labkommat-unm.net/wp-content/uploads/2020/03/1200px-Visual_Studio_Code_1.35_icon.svg_.png",
@@ -32,7 +33,10 @@ export default {
       "https://image.flaticon.com/icons/png/512/25/25231.png",
       "https://cdn.iconscout.com/icon/free/png-512/vue-282497.png",
       "https://cdn.iconscout.com/icon/free/png-512/typescript-1174965.png",
-      "https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png"
+      "https://cdn.iconscout.com/icon/free/png-512/flutter-2038877-1720090.png",
+      "https://toppng.com/uploads/preview/mysql-logo-vector-free-download-11573934106vmvysk1ovw.png",
+      "https://cdn.iconscout.com/icon/free/png-512/mongodb-226029.png",
+      "https://w7.pngwing.com/pngs/262/242/png-transparent-nginx-phusion-passenger-application-software-proxy-server-reverse-proxy-creativo-logo-de-marca-angle-text-trademark.png"
     ]
   })
 };
