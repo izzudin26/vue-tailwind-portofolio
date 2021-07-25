@@ -4,7 +4,7 @@
       class="flex relative h-44 overflow-visible bg-purples bg-opacity-100 w-full md:mb-28 mb-56"
     >
       <div
-        class="justify-center flex-col md:flex-row flex mx-auto md:mx-56 md:py-24 py-56"
+        class="justify-center flex-col md:flex-row flex mx-auto md:py-24 py-56"
       >
         <div
           class="mx-auto rounded-full w-44 justify-centerborder-4 border-primary-100 border-opacity-100"

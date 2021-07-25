@@ -1,6 +1,6 @@
 <template>
   <div id="Project" class="space-y-12 py-10 px-6 md:px-10 flex flex-col">
-    <div class="space-y-2 mx-auto">
+    <div class="space-y-2 mx-auto" data-aos="fade-up">
       <h2 class="font-bold text-purples text-2xl">Portfolio</h2>
       <div class="h-1 w-full rounded-full bg-purples"></div>
     </div>
@@ -9,13 +9,13 @@
         v-for="(image, i) in images"
         :key="i"
         class="md:mx-20 md:my-8 hover:scale-105 transform duration-200"
-        @click="openUrl(image.url)"
       >
-        <img
-          :src="image.image"
-          class="rounded-lg shadow-lg"
-          data-aos="fade-up"
-        />
+        <a :href="image.url" target="_blank">
+          <img
+            :src="image.image"
+            class="rounded-lg shadow-lg"
+            data-aos="fade-up"
+        /></a>
       </div>
     </div>
   </div>
@@ -53,12 +53,7 @@ export default Vue.extend({
         image: require("@/assets/projects/todo-Flutter.webp")
       }
     ]
-  }),
-  methods: {
-    openUrl(url: string) {
-      window.open(url);
-    }
-  }
+  })
 });
 </script>
 
