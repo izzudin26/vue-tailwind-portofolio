@@ -5,8 +5,8 @@
     <Specialized />
     <Skills />
     <Tools />
-    <!-- <Projects />
-      <Footer /> -->
+    <Projects />
+    <!--  <Footer /> -->
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import About from "@/components/about.vue";
 import Skills from "@/components/skills.vue";
 import Specialized from "@/components/specialized.vue";
 import Tools from "@/components/tools.vue";
-// import Projects from "@/components/Projects.vue";
+import Projects from "@/components/Projects.vue";
 // import Footer from "@/components/footer.vue";
 
 export default Vue.extend({
@@ -27,8 +27,8 @@ export default Vue.extend({
     About,
     Specialized,
     Skills,
-    Tools
-    // Projects,
+    Tools,
+    Projects
     // Footer
   }
 });
