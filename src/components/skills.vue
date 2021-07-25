@@ -20,7 +20,7 @@
           v-for="(skill, i) in skills"
           :key="i"
           data-aos="fade-up"
-          class=" text-left cursor-pointer p-5 px-10 hover:text-primary-500 hover:scale-105 duration-500 transform transition"
+          class="text-left cursor-pointer p-5 px-10 hover:text-primary-500hover:scale-105 duration-500 transform transition"
         >
           <span class="font-sans text-base font-semibold text-white">{{
             skill.name

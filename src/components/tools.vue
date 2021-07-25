@@ -1,13 +1,15 @@
 <template>
   <div
     id="tools"
-    class="bg-gray-100 space-y-12 py-10 px-6 md:px-10 justify-center align-center"
+    class="bg-gray-100 space-y-12 py-10 px-6 md:px-10 justify-center align-center flex flex-col"
   >
-    <div class="text-center font-bold text-purples text-2xl" data-aos="fade-up">
-      Tools and Technologies
-      <div class="bg-purples w-1/6 h-1 rounded-full mx-auto mt-2"></div>
+    <div class="space-y-2 mx-auto" data-aos="fade-up">
+      <h2 class="font-bold text-purples text-2xl">Tools and Technologies</h2>
+      <div class="w-full mx-auto h-1 rounded-full bg-purples mt-2"></div>
     </div>
-    <div class="grid grid-cols-6 gap-4 mx-auto justify-center align-center">
+    <div
+      class="grid w-full grid-cols-6 gap-4 mx-auto justify-center align-center"
+    >
       <img
         data-aos="fade-up"
         v-for="(image, i) in techs"

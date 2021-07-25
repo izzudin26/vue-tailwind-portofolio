@@ -1,11 +1,11 @@
 <template>
-  <div id="specialized" class="bg-gray-100 space-y-12 py-10 px-6 md:px-10">
-    <div
-      class="text-purples text-2xl text-center font-bold flex flex-col"
-      data-aos="fade-up"
-    >
-      Specialized
-      <div class="w-1/12 mx-auto h-1 rounded-full bg-purples mt-2"></div>
+  <div
+    id="specialized"
+    class="bg-gray-100 space-y-12 py-10 px-6 md:px-10 flex flex-col"
+  >
+    <div class="space-y-2 mx-auto" data-aos="fade-up">
+      <h2 class="font-bold text-purples text-2xl">Services Offer</h2>
+      <div class="w-full mx-auto h-1 rounded-full bg-purples mt-2"></div>
     </div>
     <div
       class="grid grid-cols-1 md:grid-cols-3 space-y-10 md:space-y-0 md:space-x-10 p-10 justify-center align-middle"
