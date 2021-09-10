@@ -1,8 +1,9 @@
 <template>
   <div id="profile">
     <div
-      class="flex relative h-44 overflow-visible bg-purples bg-opacity-100 w-full md:mb-28 mb-56"
+      class="flex relative h-44 overflow-visible bg-purples bg-opacity-100 w-full md:mb-28 mb-56 transform transition-all duration-1000"
     >
+    
       <div
         class="justify-center flex-col md:flex-row flex mx-auto md:py-24 py-56"
       >
@@ -79,6 +80,9 @@
                   />
                 </svg>
               </a>
+              <a href="https://resume.io/r/GViEzdsuE" class="font-bold text-xl text-gray-500 hover:text-primary-500" target="_blank">
+               Resume
+              </a>
             </div>
           </div>
         </div>
@@ -93,7 +97,7 @@ export default {
 
   data: () => ({
     image: require("@/assets/desk.jpg"),
-    photo: require("@/assets/photo.jpg"),
+    photo: require("@/assets/photo-blue.jpg"),
     name: "IZZUDIN AR RAFIQ",
     word: "Junior Fullstack Developer"
   })
