@@ -5,14 +5,20 @@ import Loading from "@/components/circleLoading.vue";
 import Illustration from "@/components/illustration.vue";
 import aos from "aos";
 import "aos/dist/aos.css";
+import VueRouter from "vue-router";
+import { router } from "@/router";
 
 Vue.component("Loading-animation", Loading);
 Vue.component("Illustration", Illustration);
+Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
-new Vue({
+const app = new Vue({
   created() {
     aos.init();
   },
+  router,
   render: h => h(App)
-}).$mount("#app");
+});
+
+app.$mount("#app");
