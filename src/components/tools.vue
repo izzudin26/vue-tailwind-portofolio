@@ -30,7 +30,7 @@ export default {
       "https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png",
       "https://cdn.iconscout.com/icon/free/png-512/docker-226091.png",
       "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png",
-      "https://www.labkommat-unm.net/wp-content/uploads/2020/03/1200px-Visual_Studio_Code_1.35_icon.svg_.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png",
       "https://docs.nestjs.com/assets/logo-small.svg",
       "https://image.flaticon.com/icons/png/512/25/25231.png",
       "https://cdn.iconscout.com/icon/free/png-512/vue-282497.png",
